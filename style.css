@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #faf6fa;
+}
+.container {
+  margin: 50px auto;
+  border-bottom: 3px solid #263f91;
+  width: 110px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.services {
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 7%;
+}
+.services .child {
+  text-align: center;
+  height: 200px;
+}
+.services .child:hover {
+  background-color: #dedde0;
+}
+.child .paragragh {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.child p{
+    font-size:16px;
+    font-weight:lighter;
+    color: #797979;
+    line-height: 30px;
+}
